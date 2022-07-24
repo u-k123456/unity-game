@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: "\u30B9\u30C6\u30FC\u30B8\uFF15"
-  sceneName: "\u30AF\u30EA\u30A2\u753B\u9762"
+  sceneName: "\u30B2\u30FC\u30E0\u30AF\u30EA\u30A2"
 --- !u!1 &725303648
 GameObject:
   m_ObjectHideFlags: 0
