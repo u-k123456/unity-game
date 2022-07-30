@@ -14,11 +14,10 @@ GameObject:
   - component: {fileID: 4823282012821146326}
   - component: {fileID: 4823282012821146325}
   - component: {fileID: 4823282012821146313}
-  - component: {fileID: 4488167455661648391}
   - component: {fileID: 8023195531007162718}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,8 +121,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000005, y: 0.75, z: 0.6250003}
-  m_Center: {x: 0.031250015, y: -0.118750006, z: 0.010316019}
+  m_Size: {x: 1.0049367, y: 0.6016846, z: 0.6250003}
+  m_Center: {x: 0.02878189, y: -0.19649696, z: 0.010316014}
 --- !u!114 &4823282012821146313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,19 +136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedX: 10
---- !u!135 &4488167455661648391
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3720852205932158679}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.50000024
-  m_Center: {x: 0.031250015, y: -0.118750006, z: 0.010316019}
 --- !u!114 &8023195531007162718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,7 +160,7 @@ GameObject:
   - component: {fileID: 5000407440362290356}
   m_Layer: 0
   m_Name: car1
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

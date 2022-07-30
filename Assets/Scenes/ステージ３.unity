@@ -659,6 +659,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3868053859360452160, guid: 8146467645ed7e54c839a96ea3aed75c, type: 3}
+      propertyPath: speed
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868053859360452160, guid: 8146467645ed7e54c839a96ea3aed75c, type: 3}
+      propertyPath: jumppower
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868053859360452160, guid: 8146467645ed7e54c839a96ea3aed75c, type: 3}
+      propertyPath: rotateSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4138666961230725166, guid: 8146467645ed7e54c839a96ea3aed75c, type: 3}
       propertyPath: m_Name
       value: boy
@@ -689,6 +701,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4203154992903809996, guid: 8146467645ed7e54c839a96ea3aed75c, type: 3}
   m_PrefabInstance: {fileID: 1563583872}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1563583876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563583873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0baad44419f71674da9a7840e062cc34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: Finish
+  sceneName: "\u30B9\u30C6\u30FC\u30B8\uFF13"
 --- !u!1 &1664957576
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4322603729099799575, guid: 9227af38c941efe4cac929ed507ba675, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.04
+      value: 3.22
       objectReference: {fileID: 0}
     - target: {fileID: 4322603729099799575, guid: 9227af38c941efe4cac929ed507ba675, type: 3}
       propertyPath: m_LocalPosition.z

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7211178687132228228}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc18e0f719ab564ea6a3ac4c8dfdbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  limitSec: 2
+  limitSec: 1
 --- !u!1 &8057903142217277662
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 1842323287913892652}
   m_Layer: 0
   m_Name: "\u964D\u3063\u3066\u304F\u308Buni"
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +126,7 @@ Transform:
   m_GameObject: {fileID: 8057903142217277662}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.2, y: 2.9210007, z: -10.979217}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.65529, y: 0.65529, z: 0.65529}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7847672611036203836}
@@ -160,5 +160,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.41167974
+  m_Center: {x: 0, y: -0.088320255, z: 0}
